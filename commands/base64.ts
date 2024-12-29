@@ -1,5 +1,5 @@
-import { SlashCommandBuilder } from 'npm:discord.js';
-import axios from 'npm:axios';
+import { SlashCommandBuilder } from 'discord.js';
+import axios from 'axios';
 
 async function base64Operation(text: string, action: 'encode' | 'decode'): Promise<string> {
   try {
